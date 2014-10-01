@@ -123,7 +123,7 @@
     CGRect bannerFrame = adController.bannerView.frame;
     if (adController.bannerView.bannerLoaded)
 	{
-        contentFrame.size.height = frame.size.height - frame.size.height;
+        contentFrame.size.height = frame.size.height - bannerViewframe.size.height;
         bannerFrame.origin.y = frame.size.height - bannerFrame.size.height - tabBarAdjustment;
     } 
 	else 
