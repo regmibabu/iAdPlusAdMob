@@ -1,3 +1,9 @@
+
+All the credit goes to pjcook.iadplusadmob 
+i just fixed the bug on adviewcontroller which was making iad go full screen
+
+
+
 Purpose
 --------------
 
